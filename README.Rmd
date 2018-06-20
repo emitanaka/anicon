@@ -29,4 +29,4 @@ See more in the vignette [here](https://emitanaka.github.io/files/anicon/demo.ht
 
 ## Still icons
 
-For still icons you can try either the [`fontawesome`](https://github.com/rstudio/fontawesome) package or [`icon`] package (https://github.com/ropenscilabs/icon). 
+For still icons you can try either the [`fontawesome`](https://github.com/rstudio/fontawesome) package or [`icon`](https://github.com/ropenscilabs/icon) package . 
