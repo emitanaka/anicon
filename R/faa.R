@@ -2,7 +2,7 @@
 #' Insert animated icon from font awesome
 #'
 #' @param name A string indicating the icon name.
-#' @param size Size of the icon relative to font size. Options are 1, lg (133%), xs (75%), sm (87.5%), 2, 3, 4, 5, 7 or 10.
+#' @param size Size of the icon relative to font size. Options are 1, lg (133 percent), xs (75 percent), sm (87.5 percent), 2, 3, 4, 5, 7 or 10.
 #' @param position A numerical vector of length 4 specifying the value to move up, down, left and right.
 #' @param grow Numerical value to grow (or shrink for negative values) without changing or moving the container.
 #' @param fixed_width If TRUE, the icon is set to a fixed width

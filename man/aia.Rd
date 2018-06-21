@@ -14,7 +14,7 @@ aia(name = "academia", size = 1, position = c(0, 0, 0, 0), grow = 0,
 \arguments{
 \item{name}{A string indicating the icon name.}
 
-\item{size}{Size of the icon relative to font size. Options are 1, lg (133%), xs (75%), sm (87.5%), 2, 3, 4, 5, 7 or 10.}
+\item{size}{Size of the icon relative to font size. Options are 1, lg (133 percent), xs (75 percent), sm (87.5 percent), 2, 3, 4, 5, 7 or 10.}
 
 \item{position}{A numerical vector of length 4 specifying the value to move up, down, left and right.}
 
