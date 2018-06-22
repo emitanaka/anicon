@@ -2,7 +2,7 @@ Package: anicon
 Type: Package
 Title: Animated icons for R Markdown and Shiny
 Version: 0.1.0
-Author@R: c(
+Authors@R: c(
     person("Emi", "Tanaka", email = "dr.emi.tanaka@gmail.com", role = c("aut", "cre")) )
 Description: This package allows easy insertion of animated icons.
 Depends:
