@@ -17,7 +17,7 @@ aia <- function(name="academia", size=1, position=c(0,0,0,0), grow=0,
 
   d1 <- icon:::html_dependency_academicons()
   d2 <- htmltools::htmlDependency("font-awesome-animation", "1.0", src=system.file("animation", package="anicon"),
-                                  stylesheet="font-awesome-animation.min.css")
+                                  stylesheet="font-awesome-animation-emi.css")
 
 
   x <- structure(list(name=name,

@@ -45,7 +45,7 @@ faa <- function(name="font-awesome", size=1, position=c(0,0,0,0), grow=0,
   d3 <- htmltools::htmlDependency("fontawesome", "5.0.13", src=system.file("fontawesome/font-awesome-5.0.13", package="anicon"),
                                   script="js/fontawesome-all.min.js")
   d4 <- htmltools::htmlDependency("font-awesome-animation", "1.0", src=system.file("animation", package="anicon"),
-                            stylesheet="font-awesome-animation.min.css")
+                            stylesheet="font-awesome-animation-emi.css")
   #d5 <- htmltools::htmlDependency("font-awesome-animation", "1.0", src=system.file("animation", package="anicon"),
   #                                stylesheet="custom.css")
 
