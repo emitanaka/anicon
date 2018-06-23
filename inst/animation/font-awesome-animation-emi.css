@@ -3,6 +3,9 @@
  * https://github.com/l-lin/font-awesome-animation
  * License: MIT
  */
+
+div.divinline { float:left; }
+
 @-webkit-keyframes wrench {
   0% {
     -webkit-transform: rotate(-12deg);

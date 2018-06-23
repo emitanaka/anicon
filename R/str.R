@@ -12,7 +12,41 @@ str_style <- function(x){
   out
 }
 
+str_text <- function(x) {
+  out <- "divinline "
+  out <- paste0(out, switch(as.character(x$options$size),
+                            `1`="", lg="fa-lg", xs="fa-xs",
+                            sm="fa-sm", `2`="fa-2x",
+                            `3`="fa-3x", `4`="fa-4x",
+                            `5`="fa-5x", `7`="fa-7x",
+                            `10`="fa-10x"))
 
+  if (x$options$fixed_width) {
+    out <- paste0(out, "fa-fw")
+  }
+
+  anim_append <- paste0(" faa-", x$options$animate)
+  out <- paste0(out, switch(x$options$anitype,
+                            `repeat`=paste(anim_append, "animated "),
+                            `hover`=paste(anim_append, "animated-hover ")
+                            ))
+
+  out <- paste0(out, switch(x$options$speed,
+                            `normal`="",
+                            `fast`="faa-fast ",
+                            `slow`="faa-slow "))
+
+  if (x$options$border) {
+    out <- paste0(out, "fa-border")
+  }
+
+  if (!is.null(x$options$iother)) {
+    out <- paste(out, paste(x$options$sother, collapse=" "))
+  }
+  other_append <- paste0(" ", paste(x$options$other, collapse=" "))
+
+  out
+}
 
 str_icon <- function(x) {
   UseMethod("str_icon")
@@ -114,7 +148,7 @@ icon_string <- function(x, icon="fas", icon_class=icon) {
   }
 
   if (!is.null(x$options$iother)) {
-    out <- paste(out, paste(x$options$sother, collapse=" "))
+    out <- paste(out, paste(x$options$iother, collapse=" "))
   }
   other_append <- paste0(" ", paste(x$options$other, collapse=" "))
 
