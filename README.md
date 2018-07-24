@@ -7,7 +7,9 @@ Overview
 
 This R-package allows for easy insertion of animated [font awesome](https://fontawesome.com) or [academicons](https://jpswalsh.github.io/academicons/) icons into R markdown or Shiny.
 
-It works with inline code such as <code>r <icon::fa>("pagelines")</code> enclosed with backticks. You can find the vignette [here](https://anicon.netlify.com/).
+It works with inline code such as `` `r anicon::faa("leaf", animate="burst")` ``
+
+You can find the vignette [here](https://anicon.netlify.com/).
 
 Installation
 ------------
