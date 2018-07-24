@@ -4,20 +4,20 @@
 \alias{cia}
 \title{Insert animated image. This is still in production.}
 \usage{
-cia(src, alt = "", height = "100\%", width = "100\%", size = 1,
-  position = c(0, 0, 0, 0), grow = 0, animate = "flash",
-  speed = "normal", anitype = "repeat", rotate = 0, flip = "none",
-  border = FALSE, bgcolor = NULL, bgcolour = bgcolor, iother = NULL,
-  sother = NULL, dother = NULL)
+cia(src, height = NULL, width = NULL, size = 1, position = c(0, 0, 0,
+  0), grow = 0, animate = "flash", speed = "normal", anitype = "repeat",
+  rotate = 0, flip = "none", rtext = "", ltext = "", border = FALSE,
+  bgcolor = NULL, bgcolour = bgcolor, iother = NULL, sother = NULL,
+  dother = NULL)
 }
 \arguments{
-\item{src}{A url or path of image to animate.}
+\item{src}{A url or path of image/gif to animate.}
 
-\item{alt}{Alternative text to the image.}
+\item{height}{Height of the image that can be specified in percentage or pixels. This cannot be defined if size or grow is defined.}
 
-\item{height}{height of the image that can be specified in percentage or pixels.}
+\item{width}{Width of the image that can be specified in percentage or pixels. This cannot be defined if size or grow is defined.}
 
-\item{width}{width of the image that can be specified in percentage or pixels.}
+\item{size}{Size of the icon relative to font size. Options are lg (133 percent), xs (75 percent), sm (87.5 percent) or a positive number.}
 
 \item{position}{A numerical vector of length 4 specifying the value to move up, down, left and right.}
 
@@ -25,27 +25,25 @@ cia(src, alt = "", height = "100\%", width = "100\%", size = 1,
 
 \item{animate}{'bounce', 'burst', 'falling', 'flash', 'float', 'horizontal',
 'passing', 'passing-reverse', 'pulse', 'ring', 'shake', 'spin',
-'tada', 'vertical', or 'wrench'}
+'tada', 'vertical', 'wrench', or use FALSE not to animate.}
 
 \item{speed}{'normal', 'fast', or 'slow'}
 
-\item{anitype}{'repeat' or 'hover'}
+\item{anitype}{'repeat', 'hover', or 'parent-hover'}
 
-\item{rotate}{Numerical value for degree of rotation. This is not working.}
+\item{rotate}{Numerical value for degree of rotation.}
 
 \item{flip}{'none', 'horizontal', 'vertical'.}
+
+\item{rtext}{The text to be inserted on the right side.}
+
+\item{ltext}{The text to be inserted on the left side.}
 
 \item{border}{If TRUE, draws a border around the icon.}
 
 \item{bgcolor, bgcolour}{Colour to be given to the background}
 
-\item{iother}{Character vector of other parameters directly added to the icon classes, e.g. fa-pull-left, fa-pull-right.}
-
 \item{sother}{Character vector of other parameters directly added to the style classes.}
-
-\item{dother}{Character vector of other parameters directly added to the data-fa-transform classes, e.g. shrink-8, grow-2}
-
-\item{align}{top, bottom, middle, left, right}
 }
 \description{
 Insert animated image. This is still in production.

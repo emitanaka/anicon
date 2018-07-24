@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Insert animated icon from font awesome — faa • anicon</title>
+<title>Insert animated image. This is still in production. — cia • anicon</title>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
@@ -30,9 +30,9 @@
 
 
 
-<meta property="og:title" content="Insert animated icon from font awesome — faa" />
+<meta property="og:title" content="Insert animated image. This is still in production. — cia" />
 
-<meta property="og:description" content="Insert animated icon from font awesome" />
+<meta property="og:description" content="Insert animated image. This is still in production." />
 <meta name="twitter:card" content="summary" />
 
 
@@ -100,21 +100,20 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Insert animated icon from font awesome</h1>
-    <small class="dont-index">Source: <a href='https://github.com/emitanaka/anicon/blob/master/R/faa.R'><code>R/faa.R</code></a></small>
-    <div class="hidden name"><code>faa.Rd</code></div>
+    <h1>Insert animated image. This is still in production.</h1>
+    <small class="dont-index">Source: <a href='https://github.com/emitanaka/anicon/blob/master/R/cia.R'><code>R/cia.R</code></a></small>
+    <div class="hidden name"><code>cia.Rd</code></div>
     </div>
 
     <div class="ref-description">
     
-    <p>Insert animated icon from font awesome</p>
+    <p>Insert animated image. This is still in production.</p>
     
     </div>
 
-    <pre class="usage"><span class='fu'>faa</span>(<span class='kw'>name</span> <span class='kw'>=</span> <span class='st'>"font-awesome"</span>, <span class='kw'>size</span> <span class='kw'>=</span> <span class='fl'>1</span>, <span class='kw'>position</span> <span class='kw'>=</span> <span class='fu'>c</span>(<span class='fl'>0</span>, <span class='fl'>0</span>, <span class='fl'>0</span>, <span class='fl'>0</span>), <span class='kw'>grow</span> <span class='kw'>=</span> <span class='fl'>0</span>,
-  <span class='kw'>fixed_width</span> <span class='kw'>=</span> <span class='fl'>FALSE</span>, <span class='kw'>animate</span> <span class='kw'>=</span> <span class='st'>"flash"</span>, <span class='kw'>speed</span> <span class='kw'>=</span> <span class='st'>"normal"</span>,
-  <span class='kw'>anitype</span> <span class='kw'>=</span> <span class='st'>"repeat"</span>, <span class='kw'>rtext</span> <span class='kw'>=</span> <span class='st'>""</span>, <span class='kw'>ltext</span> <span class='kw'>=</span> <span class='st'>""</span>, <span class='kw'>rotate</span> <span class='kw'>=</span> <span class='fl'>0</span>,
-  <span class='kw'>flip</span> <span class='kw'>=</span> <span class='st'>"none"</span>, <span class='kw'>border</span> <span class='kw'>=</span> <span class='fl'>FALSE</span>, <span class='kw'>color</span> <span class='kw'>=</span> <span class='kw'>NULL</span>, <span class='kw'>colour</span> <span class='kw'>=</span> <span class='no'>color</span>,
+    <pre class="usage"><span class='fu'>cia</span>(<span class='no'>src</span>, <span class='kw'>height</span> <span class='kw'>=</span> <span class='kw'>NULL</span>, <span class='kw'>width</span> <span class='kw'>=</span> <span class='kw'>NULL</span>, <span class='kw'>size</span> <span class='kw'>=</span> <span class='fl'>1</span>, <span class='kw'>position</span> <span class='kw'>=</span> <span class='fu'>c</span>(<span class='fl'>0</span>, <span class='fl'>0</span>, <span class='fl'>0</span>,
+  <span class='fl'>0</span>), <span class='kw'>grow</span> <span class='kw'>=</span> <span class='fl'>0</span>, <span class='kw'>animate</span> <span class='kw'>=</span> <span class='st'>"flash"</span>, <span class='kw'>speed</span> <span class='kw'>=</span> <span class='st'>"normal"</span>, <span class='kw'>anitype</span> <span class='kw'>=</span> <span class='st'>"repeat"</span>,
+  <span class='kw'>rotate</span> <span class='kw'>=</span> <span class='fl'>0</span>, <span class='kw'>flip</span> <span class='kw'>=</span> <span class='st'>"none"</span>, <span class='kw'>rtext</span> <span class='kw'>=</span> <span class='st'>""</span>, <span class='kw'>ltext</span> <span class='kw'>=</span> <span class='st'>""</span>, <span class='kw'>border</span> <span class='kw'>=</span> <span class='fl'>FALSE</span>,
   <span class='kw'>bgcolor</span> <span class='kw'>=</span> <span class='kw'>NULL</span>, <span class='kw'>bgcolour</span> <span class='kw'>=</span> <span class='no'>bgcolor</span>, <span class='kw'>iother</span> <span class='kw'>=</span> <span class='kw'>NULL</span>, <span class='kw'>sother</span> <span class='kw'>=</span> <span class='kw'>NULL</span>,
   <span class='kw'>dother</span> <span class='kw'>=</span> <span class='kw'>NULL</span>)</pre>
     
@@ -122,12 +121,20 @@
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>name</th>
-      <td><p>A string indicating the icon name.</p></td>
+      <th>src</th>
+      <td><p>A url or path of image/gif to animate.</p></td>
+    </tr>
+    <tr>
+      <th>height</th>
+      <td><p>Height of the image that can be specified in percentage or pixels. This cannot be defined if size or grow is defined.</p></td>
+    </tr>
+    <tr>
+      <th>width</th>
+      <td><p>Width of the image that can be specified in percentage or pixels. This cannot be defined if size or grow is defined.</p></td>
     </tr>
     <tr>
       <th>size</th>
-      <td><p>Size of the icon relative to font size. Options are 1, lg (133 percent), xs (75 percent), sm (87.5 percent), 2, 3, 4, 5, 7 or 10.</p></td>
+      <td><p>Size of the icon relative to font size. Options are lg (133 percent), xs (75 percent), sm (87.5 percent) or a positive number.</p></td>
     </tr>
     <tr>
       <th>position</th>
@@ -138,14 +145,10 @@
       <td><p>Numerical value to grow (or shrink for negative values) without changing or moving the container.</p></td>
     </tr>
     <tr>
-      <th>fixed_width</th>
-      <td><p>If TRUE, the icon is set to a fixed width</p></td>
-    </tr>
-    <tr>
       <th>animate</th>
       <td><p>'bounce', 'burst', 'falling', 'flash', 'float', 'horizontal',
 'passing', 'passing-reverse', 'pulse', 'ring', 'shake', 'spin',
-'tada', 'vertical', or 'wrench'</p></td>
+'tada', 'vertical', 'wrench', or use FALSE not to animate.</p></td>
     </tr>
     <tr>
       <th>speed</th>
@@ -156,14 +159,6 @@
       <td><p>'repeat', 'hover', or 'parent-hover'</p></td>
     </tr>
     <tr>
-      <th>rtext</th>
-      <td><p>The text to be inserted on the right side.</p></td>
-    </tr>
-    <tr>
-      <th>ltext</th>
-      <td><p>The text to be inserted on the left side.</p></td>
-    </tr>
-    <tr>
       <th>rotate</th>
       <td><p>Numerical value for degree of rotation.</p></td>
     </tr>
@@ -172,36 +167,30 @@
       <td><p>'none', 'horizontal', 'vertical'.</p></td>
     </tr>
     <tr>
-      <th>border</th>
-      <td><p>If TRUE, draws a border around the icon.</p></td>
+      <th>rtext</th>
+      <td><p>The text to be inserted on the right side.</p></td>
     </tr>
     <tr>
-      <th>color, colour</th>
-      <td><p>Colour to be given to the icon</p></td>
+      <th>ltext</th>
+      <td><p>The text to be inserted on the left side.</p></td>
+    </tr>
+    <tr>
+      <th>border</th>
+      <td><p>If TRUE, draws a border around the icon.</p></td>
     </tr>
     <tr>
       <th>bgcolor, bgcolour</th>
       <td><p>Colour to be given to the background</p></td>
     </tr>
     <tr>
-      <th>iother</th>
-      <td><p>Character vector of other parameters directly added to the icon classes, e.g. fa-pull-left, fa-pull-right.</p></td>
-    </tr>
-    <tr>
       <th>sother</th>
       <td><p>Character vector of other parameters directly added to the style classes.</p></td>
-    </tr>
-    <tr>
-      <th>dother</th>
-      <td><p>Character vector of other parameters directly added to the data-fa-transform classes, e.g. shrink-8, grow-2</p></td>
     </tr>
     </table>
     
     <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
 
-    <p><a href='http://fontawesome.io/icons/'>Font awesome</a></p>
-<p><a href='https://l-lin.github.io/font-awesome-animation/'>Font awesome animation</a></p>
-<p><a href='https://github.com/ropenscilabs/icon'>icon R-package</a></p>
+    <p><a href='https://l-lin.github.io/font-awesome-animation/'>Font awesome animation</a></p>
     
 
   </div>

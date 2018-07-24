@@ -1,0 +1,13 @@
+---
+author: "Emi Tanaka"
+title: "Introduction to anicon"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{anicon}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+<iframe src="https://anicon.netlify.com/" width="100%" height="300">
+  <p>Your browser does not support iframes.</p>
+</iframe>

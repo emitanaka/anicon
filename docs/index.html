@@ -10,7 +10,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><!-- Font Awesome icons --><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js" integrity="sha384-cV+rhyOuRHc9Ub/91rihWcGmMmCXDeksTtCihMupQHSsi8GIIRDG0ThDc3HGQFJ3" crossorigin="anonymous"></script><!-- sticky kit --><script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js" integrity="sha256-c4Rlo1ZozqTPE2RLuvbusY3+SU1pQaJC0TjuhygMipw=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
 <script src="pkgdown.js"></script><meta property="og:title" content="Animated icons for R Markdown and Shiny">
-<meta property="og:description" content="This package allows easy insertion of animated icons.">
+<meta property="og:description" content="This package allows easy insertion of animated icons into R Markdown html outputs.">
 <meta name="twitter:card" content="summary">
 <!-- mathjax --><script src="https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -40,6 +40,9 @@
     <span class="fa fa-home fa-lg"></span>
      
   </a>
+</li>
+<li>
+  <a href="articles/anicon.html">Get started</a>
 </li>
 <li>
   <a href="reference/index.html">Reference</a>
@@ -74,7 +77,7 @@
 <h2 class="hasAnchor">
 <a href="#overview" class="anchor"></a>Overview</h2>
 <p>This R-package allows for easy insertion of animated <a href="https://fontawesome.com">font awesome</a> or <a href="https://jpswalsh.github.io/academicons/">academicons</a> icons into R markdown or Shiny.</p>
-<p>It works inline code <code>r <a href="icon::fa" class="uri">icon::fa</a>(“pagelines”)</code>. You can find the vignette <a href="https://emitanaka.github.io/files/anicon/demo.html">here</a>.</p>
+<p>It works with inline code such as <code>r <a href="icon::fa" class="uri">icon::fa</a>(“pagelines”)</code> enclosed with backticks. You can find the vignette <a href="https://anicon.netlify.com/">here</a>.</p>
 </div>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
@@ -87,9 +90,14 @@ devtools<span class="op">::</span><span class="kw"><a href="http://www.rdocument
 <h2 class="hasAnchor">
 <a href="#example" class="anchor"></a>Example</h2>
 <div class="figure">
-<img src="../../../../Dropbox%20(Personal)/R/r-pkgs/anicon/animate.gif">
+<img src="https://raw.githubusercontent.com/emitanaka/anicon/master/inst/media/animate.gif" alt="pow!"><p class="caption">pow!</p>
 </div>
-<p>See more in the vignette <a href="https://emitanaka.github.io/files/anicon/demo.html">here</a>.</p>
+<p><code>anicon</code> now also has text animation!</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/emitanaka/anicon/master/inst/media/anitextshow.gif" alt="pow!"><p class="caption">pow!</p>
+</div>
+<p>See more in the vignette <a href="https://anicon.netlify.com/">here</a>.</p>
+<p>Font awesome animation is brought thanks to <a href="https://l-lin.github.io/font-awesome-animation/">font-awesome-animation</a>.</p>
 </div>
 <div id="still-icons" class="section level2">
 <h2 class="hasAnchor">
