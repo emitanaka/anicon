@@ -22,11 +22,11 @@ devtools::install_github('emitanaka/anicon')
 Example
 -------
 
-![pow!](https://raw.githubusercontent.com/emitanaka/anicon/master/inst/media/animate.gif)
+![](https://raw.githubusercontent.com/emitanaka/anicon/master/inst/media/animate.gif)
 
 `anicon` now also has text animation!
 
-![pow!](https://raw.githubusercontent.com/emitanaka/anicon/master/inst/media/anitextshow.gif)
+![](https://raw.githubusercontent.com/emitanaka/anicon/master/inst/media/anitextshow.gif)
 
 See more in the vignette [here](https://anicon.netlify.com/).
 
