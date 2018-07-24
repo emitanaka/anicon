@@ -1,5 +1,5 @@
 
-#' Insert animated image. This is still in production.
+#' Insert your own image and make it animated.
 #'
 #' @param src A url or path of image/gif to animate.
 #' @param size Size of the icon relative to font size. Options are lg (133 percent), xs (75 percent), sm (87.5 percent) or a positive number.

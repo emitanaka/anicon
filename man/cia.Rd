@@ -2,7 +2,7 @@
 % Please edit documentation in R/cia.R
 \name{cia}
 \alias{cia}
-\title{Insert animated image. This is still in production.}
+\title{Insert your own image and make it animated.}
 \usage{
 cia(src, height = NULL, width = NULL, size = 1, position = c(0, 0, 0,
   0), grow = 0, animate = "flash", speed = "normal", anitype = "repeat",
@@ -46,7 +46,7 @@ cia(src, height = NULL, width = NULL, size = 1, position = c(0, 0, 0,
 \item{sother}{Character vector of other parameters directly added to the style classes.}
 }
 \description{
-Insert animated image. This is still in production.
+Insert your own image and make it animated.
 }
 \references{
 \href{https://l-lin.github.io/font-awesome-animation/}{Font awesome animation}
