@@ -19,7 +19,7 @@ cia(src, height = NULL, width = NULL, size = 1, position = c(0, 0, 0,
 
 \item{size}{Size of the icon relative to font size. Options are lg (133 percent), xs (75 percent), sm (87.5 percent) or a positive number.}
 
-\item{position}{A numerical vector of length 4 specifying the value to move up, down, left and right.}
+\item{position}{A numerical vector of length 4 specifying the value to move up, down, left and right. NOT IMPLEMENTED YET.}
 
 \item{grow}{Numerical value to grow (or shrink for negative values) without changing or moving the container.}
 

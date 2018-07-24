@@ -5,7 +5,7 @@
 #' @param size Size of the icon relative to font size. Options are lg (133 percent), xs (75 percent), sm (87.5 percent) or a positive number.
 #' @param height Height of the image that can be specified in percentage or pixels. This cannot be defined if size or grow is defined.
 #' @param width Width of the image that can be specified in percentage or pixels. This cannot be defined if size or grow is defined.
-#' @param position A numerical vector of length 4 specifying the value to move up, down, left and right.
+#' @param position A numerical vector of length 4 specifying the value to move up, down, left and right. NOT IMPLEMENTED YET.
 #' @param grow Numerical value to grow (or shrink for negative values) without changing or moving the container.
 #' @param animate 'bounce', 'burst', 'falling', 'flash', 'float', 'horizontal',
 #' 'passing', 'passing-reverse', 'pulse', 'ring', 'shake', 'spin',
