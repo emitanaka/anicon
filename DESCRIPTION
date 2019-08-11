@@ -12,6 +12,8 @@ Imports:
     rmarkdown (>= 1.6.0),
     knitr,
     htmltools
+Remotes:
+    emitanaka/icon
 URL: https://github.com/emitanaka/anicon, https://emitanaka.github.io/anicon/
 BugReports: https://github.com/emitanaka/anicon/issues
 VignetteBuilder: knitr
