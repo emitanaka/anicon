@@ -1,18 +1,19 @@
 
-anicon
-======
+# anicon
 
-Overview
---------
+## Overview
 
-This R-package allows for easy insertion of animated [font awesome](https://fontawesome.com) or [academicons](https://jpswalsh.github.io/academicons/) icons into R markdown or Shiny.
+This R-package allows for easy insertion of animated [font
+awesome](https://fontawesome.com) or
+[academicons](https://jpswalsh.github.io/academicons/) icons into R
+markdown or Shiny.
 
-It works with inline code such as `` `r anicon::faa("leaf", animate="burst")` ``
+It works with inline code such as
+`` `r anicon::faa("leaf", animate="burst")` ``
 
-You can find the vignette [here](https://anicon.netlify.com/).
+You can find the vignette [here](https://anicon.netlify.app/).
 
-Installation
-------------
+## Installation
 
 You can install this package from github as:
 
@@ -21,8 +22,7 @@ You can install this package from github as:
 devtools::install_github('emitanaka/anicon')
 ```
 
-Example
--------
+## Example
 
 ![](https://raw.githubusercontent.com/emitanaka/anicon/master/inst/media/animate.gif)
 
@@ -32,9 +32,11 @@ Example
 
 See more in the vignette [here](https://anicon.netlify.com/).
 
-Font awesome animation is brought thanks to [font-awesome-animation](https://l-lin.github.io/font-awesome-animation/).
+Font awesome animation is brought thanks to
+[font-awesome-animation](https://l-lin.github.io/font-awesome-animation/).
 
-Still icons
------------
+## Still icons
 
-For still icons you can try either the [`fontawesome`](https://github.com/rstudio/fontawesome) package or [`icon`](https://github.com/ropenscilabs/icon) package .
+For still icons you can try either the
+[`fontawesome`](https://github.com/rstudio/fontawesome) package or
+[`icon`](https://github.com/ropenscilabs/icon) package .

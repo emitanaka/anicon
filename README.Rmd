@@ -16,12 +16,12 @@ It works with inline code such as
 cat("`` `r anicon::faa(\"leaf\", animate=\"burst\")` ``")
 ``` 
 
-You can find the vignette [here](https://anicon.netlify.com/). 
+You can find the vignette [here](https://anicon.netlify.app/). 
 
 ## Installation 
 
 You can install this package from github as:
-```{r, eval=F}
+```{r, eval=FALSE}
 # install.packages("devtools")
 devtools::install_github('emitanaka/anicon')
 ```
